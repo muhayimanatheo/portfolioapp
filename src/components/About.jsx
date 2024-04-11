@@ -10,14 +10,15 @@ function About(){
                </div>
                <div className="max-w[1000px] grid sm:grid-cols-2 gap-8 w-full px-4">
                    <div className="sm:text-right text-4xl font-bold">
-                    <p>Hi, I'm Theo, Nice to meet you. Please take to look around.</p>
+                    <p className="w-[35rem] mx-20">Hi, I'm Theoneste, Nice to meet you. Please take to look around.</p>
                    </div>
                    <div>
-                    <p>
-                    Our full-stack developers are web craftsmen, wielding expertise 
-                    across the entire development stack.  They bridge the gap between
-                     user experience and functionality, ensuring beautiful interfaces powered by robust features.
-                      This combined skillset allows them to bring your web vision to life, seamlessly.
+                    <p className="w-[35rem] text-2xl ">
+                    I'm a full stack developer, which means I have experience working on both the 
+                    front end (the part of the application users interact with) and the 
+                    back end (the server-side logic and database management). 
+                    I'm proficient in a range of technologies, including [Phython,JavaScript,Django,react js, Html, and css], and 
+                    I enjoy building scalable and user-friendly web applications.
                     </p>
                    </div>
                </div>

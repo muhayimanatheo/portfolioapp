@@ -9,7 +9,7 @@ function Contact() {
         action="https://getform.io/f/navvydra"
         className="flex flex-col max-w-[600px] w-full"
       >
-        <div className="pb-8">
+        <div className="pb-0">
           <p className="text-4xl font-bold inline border-b-4 border-[#fde047] text-gray-300">
             Contacts
           </p>
@@ -37,7 +37,7 @@ function Contact() {
           placeholder="Message"
           className="bg-[#ccd6f6] p-2"
         ></textarea>
-        <button className="text-white border-2 py-2 my-2  hover:bg-[#fde047] hover:border-[#fde047] hover:font-bold text-2xl ">
+        <button className="text-white border-2 py-2 my-2  hover:bg-[#fde047] hover:border-[#fde047] hover:font-bold text-2xl ease-in-out transition duration-500">
           Send Message
         </button>
       </form>

@@ -1,9 +1,10 @@
-import workings from "../assets/workings.jpg";
-import worked from "../assets/worked.png";
-import real from "../assets/real.png";
+// import workings from "../assets/workings.jpg";
+// import worked from "../assets/worked.png";
+// import real from "../assets/real.png";
 import daco from "../assets/daco.png";
 import health from "../assets/health.jpeg";
 import Good from "../assets/Good.jpeg"
+import guardian from "../assets/guardian.png";
 
 
 function Work(){
@@ -17,18 +18,18 @@ function Work(){
                 {/* container */}
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {/* grid item */}
-                    <div style={{backgroundImage:`url(${workings})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{backgroundImage:`url(${guardian})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         {/* hover effect */}
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-white tracking-wider">
       React js Application
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                <a href="https://movies-ten-psi.vercel.app">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">View</button>
                                 </a>
                                 <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">GEt Github</button>
                                 </a>
                             </div>
                         </div>
@@ -41,29 +42,29 @@ function Work(){
       React js Application
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                <a href="https://movies-ten-psi.vercel.app/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">View</button>
                                 </a>
                                 <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">GEt Github</button>
                                 </a>
                             </div>
                         </div>
 
                     </div>
                     {/* grid item */}
-                    <div style={{backgroundImage:`url(${real})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{backgroundImage:`url(${guardian})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         {/* hover effect */}
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-white tracking-wider">
       React js Application
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                <a href="https://movies-ten-psi.vercel.app/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">View</button>
                                 </a>
                                 <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Get Github</button>
                                 </a>
                             </div>
                         </div>
@@ -78,10 +79,10 @@ function Work(){
                             </span>
                             <div className="pt-8 text-center">
                                 <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">View</button>
                                 </a>
                                 <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Get Github</button>
                                 </a>
                             </div>
                         </div>
@@ -95,29 +96,29 @@ function Work(){
       React js Application
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                <a href="https://movies-ten-psi.vercel.app/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">View</button>
                                 </a>
                                 <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Get Github</button>
                                 </a>
                             </div>
                         </div>
 
                     </div>
                     {/* grid item */}
-                    <div style={{backgroundImage:`url(${worked})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{backgroundImage:`url(${guardian})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         {/* hover effect */}
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-white tracking-wider">
       React js Application
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                <a href="https://movies-ten-psi.vercel.app">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">View</button>
                                 </a>
                                 <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Get Github</button>
                                 </a>
                             </div>
                         </div>
