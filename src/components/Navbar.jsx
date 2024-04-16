@@ -51,7 +51,7 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/theoneste-muhayimana"
-            >
+            > 
               Linkedin
               <FaLinkedin size={30} />
             </a>
